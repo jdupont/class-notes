@@ -2,5 +2,6 @@
 
 A language-agnostic design patterns class on Lynda. The instructors are the authors of the well-known Heads First Design Patterns book.
 
-Started: 3/12/2018
-Finished: Still Working
+_Started_: 3/12/2018
+
+_Finished_: Still Working
