@@ -1,4 +1,4 @@
-# Programming Foundations: Design Patterns
+# [Programming Foundations: Design Patterns](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html)
 
 ## What are design patterns?
 
@@ -7,12 +7,7 @@
 + Origins
     + Gang of Four
     + Twenty-three original patterns
-        
-## What do you already know?
-
-+ 8/10 Correct
-+ Missed questions about the specifics of some design patterns
-    
+            
 ## Overall Design Principles:
 
 + Identify the aspects of your code that vary and separate them from what stays the same -- Encapsulate What Varies
@@ -20,6 +15,7 @@
 + Favor composition over inheritance
 + Strive for loosely coupled designs between objects that interact
 + Classes should be open for extension but closed for modification -- Open/Closed Principle
++ Single responsibility principle: a class should have only one reason to change
 
 ## Strategy Pattern
 
@@ -34,7 +30,7 @@
 + So:
     + When to Use: 
         + A superclass needs to use a variety of algorithms (behaviors) in an interchangeable way
-        + Might need to change algorithms at runtime
+        + Might need to change algorithms at **runtime**
     + How to Use:
         + Superclass “has a” “behavior”
         + “Behavior” implements an algorithm
@@ -63,7 +59,7 @@
         + When data changes in publisher, iterate through collection of observers and notify each one
     + Why to use:
         + Preserves one source of truth in data instead of duplicating data everywhere
-        + Loose coupling between source of data (publisher) and consumers of data (subscribers)
+        + **Loose coupling** between source of data (publisher) and consumers of data (subscribers)
 
 ## Decorator Pattern
 + Attaches additional responsibilities to an object dynamically
@@ -80,3 +76,87 @@
     + Why to use:
         + Open/Closed Principle
         + More flexible for extension without having to rewrite existing code
+
+## Singleton Pattern
+
++ Ensures that a class has only on instance
++ Provides a global access point to that class
++ Examples where this would be desirable:
+    + Logging facilities
+    + Preference and registry objects
++ Classic implementation
+    + Private constructor
+    + Static instance variable
+    + Lazily instantiated when Singleton is needed
++ But **be careful**:
+    + Classic singleton pattern is **not thread-safe**
+    + Race condition with instantiation can lead to multiple copies floating around
++ So:
+    + When to use:
+        + Depends. Be careful, singletons can rapidly become an anti-pattern
+    + How to use:
+        + Depends on threading concerns
+    + Why to use:
+        + Ensures that resource is available only once in system
+
+## State Pattern
+
++ Implementation of a state machine in a way that is extensible and readable
+    + Each state is an object
+    + Each state implements the same interface that contains all of the transitions as methods
++ So:
+    + When to use:
+        + You're implementing a state machine
+    + How to use:
+        + Context owns the current state
+        + State is an interface
+        + Each possible state implements the State interface, which represents the possible transitions between states
+        + When transition occurs, ask the current state what to do: move to next state, invalid, stay on current, etc
+        + 
+    + Why to use:
+        + Open/Closed principle with respect to adding new states or transitions
+        + More readable
+
+## Iterator Pattern
+
++ Provides a way to access the elements of an aggregate object sequentially without exposing the underlying implementation of elements
++ So:
+    + When to use:
+        + You're working with aggregate objects (e.g., arrays, lists, etc)
+        + You need to iterate through the elements in the aggregate
+        + You don't want to tie yourself down to the implementation of the aggregate
+    + How to use:
+        + Aggregate creates and returns iterator
+        + Iterator knows how to iterate
+    + Why to use:
+        + Loose coupling between aggregate object and client
+        + Can change either without having to change both
+
+## Factories
+
++ If object creation is what varies, then we need to encapsulate that
++ Factories are responsible for object creation
++ So:
+    + When to use:
+        + Need to create objects
+        + But, don't want to specify the concrete implementation of the object being created
+        + For example, if which concrete type created depends on paramaters
+    + How to use:
+        + Factory
+        + Factory creates objects and gives them to client
+    + Why to use:
+        + Reduces dependence on concrete implementation
+        + Makes it easier to modify how object creation works in the future
+
+## Conclusion
+
++ Takeaways:
+    + Well having some familiarity with these could have spared me a lot of pain in the past
+    + Powerful solutions to problems I've faced
+    + Also a powerful way of talking about design
++ Next steps:
+    + Make an active effort to use this in my everyday coding
+        + Recognize these patterns when they are implemented in the real world (and understand why the designers chose these patterns)
+        + Use these patterns to solve my own design problems
+    + Take another design pattern class or read the Gang of Four original book
+    
