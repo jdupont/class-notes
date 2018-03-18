@@ -5,7 +5,7 @@ talks at conferences don't lend themselves well to the notetaking I usually do f
 
 But, I'd still like to keep track of what I'm watching and the main ideas of each talk, so I'll do that here.
 
-## Thoughts on Software Development Careers
+## Career Development
 
 + [Common Pitfalls of Junior Developers](https://www.youtube.com/watch?v=tYOx8mA5p2c)
     + _Speaker_: Rachel Warbelow
@@ -40,3 +40,14 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     same computation executed with arbitrary precision arithmetic; if the results diverge, there has been a 
     floating point problem. Then Panchekha presents a second tool that can refactor the mathematical expression
     underlying the floating point operations to eliminate or mitigate the source of error. Cool!
+
+## The Future of Computing
+
++ [The Birth & Death of JavaScript](https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript)
+    + _Speaker_: Gary Bernhardt
+    + _Watched_: 3/18/2018
+    + Excellent talk. The premise is that the talk happens in the year 2035 and consists of the speaker recounting the
+    history of computing from 1995 to 2035. So, the talk starts off with a brief history of JavaScript, and then 
+    describes how Web Assembly and asm completely revolutionize how programming works. Very interesting talk -- I highly
+    recommend it.
+    
