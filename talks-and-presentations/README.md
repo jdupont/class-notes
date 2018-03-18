@@ -5,6 +5,14 @@ talks at conferences don't lend themselves well to the notetaking I usually do f
 
 But, I'd still like to keep track of what I'm watching and the main ideas of each talk, so I'll do that here.
 
+## Thoughts on Software Development Careers
+
++ [Common Pitfalls of Junior Developers](https://www.youtube.com/watch?v=tYOx8mA5p2c)
+    + _Speaker_: Rachel Warbelow
+    + _Watched_: 3/17/2018
+    + Short talk about some of the common problems faced by junior developers. Mostly targeted towards potential
+    mentors and teachers, not towards junior developers themselves.
+
 ## DevOps
 
 + [How Netflix Thinks About DevOps](https://www.youtube.com/watch?v=HmM4V33ReCw)
