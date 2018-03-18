@@ -21,6 +21,13 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + Describes how Netflix relies on company culture and personal ownership of code to keep everything inside 
     Netflix working smoothly (as opposed to creating a bunch of specific DevOps processes and procedures). Also
     had some interesting numbers about Netflix as a company.
++ [What can programmers learn from pilots?](https://www.youtube.com/watch?v=we4G_X91e5w)
+    + _Speaker_: Andrew Godwin
+    + _Watched_: 3/15/2018
+    + Describes how aviation has managed to make flying very safe when compared to the inherent dangers of being in
+    the air. Very interesting points about concepts like excessive errors and warnings (which ultimately get
+    ignored), the importance of checklists and process, and the importance of performing post-mortem investigations
+    and analysis when things go wrong.
 
 ## Numerical Computing
 
