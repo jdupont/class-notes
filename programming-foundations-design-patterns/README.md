@@ -4,4 +4,4 @@ A language-agnostic design patterns class on Lynda. The instructors are the auth
 
 _Started_: 3/12/2018
 
-_Finished_: Still Working
+_Finished_: 3/18/2018
