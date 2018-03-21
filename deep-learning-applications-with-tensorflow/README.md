@@ -1,4 +1,4 @@
-[Building and Deploying Deep Learning Applications with TensorFlow](https://www.lynda.com/Google-TensorFlow-tutorials/Building-Deploying-Applications-TensorFlow/601800-2.html)
+# [Building and Deploying Deep Learning Applications with TensorFlow](https://www.lynda.com/Google-TensorFlow-tutorials/Building-Deploying-Applications-TensorFlow/601800-2.html)
 
 I wanted to try out TensorFlow for some classification tasks in Python, so I'm taking this course to learn the fundamentals.
 
