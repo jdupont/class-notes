@@ -3,5 +3,7 @@
 Nailing my C# developer interview would be nice, so...
 
 _Started_: 3/21/2018
+
 _Finished_: 3/21/2018
+
 _Instructor_: Reynald Adolphe
