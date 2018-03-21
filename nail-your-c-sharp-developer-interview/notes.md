@@ -28,20 +28,60 @@
   + Presenting the same interface for different underlying forms
   + For example, `Animal` class being extended to `Dog` and `Cat`. Same interface, different behavior.
 + What's **encapsulation**?
-  + 
-+ What's **abstraction**?
-
-
+  + Preventing access to implementation details
++ What's **inheritance**?
+  + Child extends parent
++ Four pillars of OOP
+  + Abstraction
+  + Polymorphism
+  + Inheritance
+  + Encapsulation
+  
 ## .NET Questions
 
++ What's the **Common Language Runtime**?
+  + Virtual machine component of .NET
+  + Manages execution of .NET code
++ What's the **Framework Class Library**?
+  + Reusable code for .NET (standard library)
++ What's **.NET**?
+  + Managed execution environment to build and run applications
+  + Consists of two major components: CLR & FCL
++ What's **managed code** vs **unmanaged code**?
+  + Managed code: Compiles to intermediate language (e.g., bytecode) and then has execution managed by a VM
+  + Unmanaged code: Compiles directly to machine code and then runs on machine directly
++ **Boxing**
+  + Boxing is the process of converting a value type to an object type
+  + Unboxing is the reverse
+  + Prior to generics, this was how it was done
+  
 ## ASP.NET Questions
+
++ Common question topics:
+  + Page life-cycle events
+  + Page life-cycle stages
+  + ASP.NET vs MVC
+  + Advantages of razor
++ Revisit this when I have more ASP.NET knowledge
 
 ## Database Questions
 
++ What's an **inner join**?
+  + select records that have matching values in both tables
+  + SQL: `SELECT * FROM table1 INNER JOIN table2 ON table1.column = table2.column;`
++ **Join** in general
+  + Examples: **Left Join**, **Right Join**, **Full Outer Join**
+  + Have an idea of what each join does
++ **Stored Procedures**
+  + Batch of SQL statements stored in database
+  + Can have performance benefits
+
 ## Design Pattern Questions
 
-## General Personality Questions
-
-## Tips and Tricks
-
-
++ What's **[Dependency Injection](https://stackoverflow.com/questions/130794/what-is-dependency-injection)**?
+  + Exactly what it sounds like. Instead of one class being responsible for creating its own dependencies,
+  they are supplied from an external source
+  + Loose coupling
+  + Testing
+  + Closely related to **[inversion of control](https://stackoverflow.com/questions/6550700/inversion-of-control-vs-dependency-injection)**
++ Be familiar with a variety of patterns and where they might be used
