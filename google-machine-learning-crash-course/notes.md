@@ -15,6 +15,7 @@
   + _Feature engineering_: Extracting relevant attributes from data by transforming raw data into a feature vector.
   + _One-hot encoding_: Encode vocabulary with a vector of length equal to vocabulary size. For each word in
   the vocabulary, have one digit hot and all others 0.
+  + _Feature cross_: Synthetic feature that encodes nonlinearity in the feature space by multiplying two or more input features together.
 
 ## Descending into Machine Learning
 
@@ -131,13 +132,48 @@ predictions = classifier.predict(input_fn=predict_input_fn)
 
 ## Feature Crosses
 
-+ 
++ Combine two or more features to increase the value of these features beyond what they can provide individually
++ Main value:
+  + Allows linear learners to have more expressive models
+  + Linear models work well with massive data sets
+  + Adding in feature crosses gives these simple models that ability to represent complex situations
++ Crossing One-Hot Vectors:
+  + Equivalent to logic conjunction: County AND Language
+  + Common in practice
++ Completed programming exercise [here](https://drive.google.com/file/d/1KR7YwWtTziJMtOj6H16apdk3ZCtR3ijK/view?usp=sharing)
 
-## Regularization: Simplicity
+## [Regularization: Simplicity](https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/playground-exercise-overcrossing)
+
++ Crosses can be overdone
+  + Makes model more complex (e.g., adds nonlinearity)
+  + But, sometimes data are simple (e.g., completely linear)
+  + In this case, overcrossing (as a subset of overfitting)
++ Regularization is a strategy for avoiding overfitting
++ Penalizing Model Complexity
+  + The more complex the model, the greater the change of overfitting
+  + So, bake this into optimization calculatio for training:
+```
+minimize(Loss(Data|Model) + lambda * complexity(Model))
+```
+  + Higher lambda favors simple models (at the risk of underfitting)
+  + Lower lambda favors more complex models (at the risk of overfitting)
++ L2 Regularization
+  + Prefer smaller weights
+  + Small weights with normal distribution
+  + Penalize for deviation from this
++ Early stoppage (stop before the overfitting happens)
 
 ## Logistic Regression
 
-## Classification
++ Predicts probability (from 0 to 1)
++ Useful for binary classification (percent chance of one category or another)
++ Good applications:
+  + Very fast training and prediction times (works well on large data sets)
+  + Can incorporate some nonlinearity with feature crosses
+
+## [Classification](https://developers.google.com/machine-learning/crash-course/classification/video-lecture)
+
+Left off here.
 
 ## Regularization: Sparsity
 
