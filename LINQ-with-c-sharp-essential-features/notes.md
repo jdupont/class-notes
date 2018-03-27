@@ -32,7 +32,7 @@
   + Data source
   + Query
   + Execution
-+ Queries return `IEnumerable`
++ Queries return `IEnumerable` (local) or `IQueryable` (databases)
   + So, no data is iterated or fetched when query is created
   + Instead, data will be available when iterating over `IEnumerable`
   + Very important because no work is done here (so not using memory or disk resources yet)
@@ -111,6 +111,46 @@ IEnumerable<string> chained = customers.Skip(5).Take(3);
 
 + LINQ to SQL converts LINQ query to a query that can be executed by database engine
 + Usually need some libraries to handle the database connection
++ Define classes matching database structure
+  + Attributes for LINQ to perform ORM
+  + `Column`, `Table`, etc
++ Some query operations are not supported (because database cursors don't work that way)
++ Can also perform database updates
+
+## LINQ to XML
+
++ `X` classes:
+  + `XDocument`, `XElement`, etc
+  + LINQ interfaces with these to make easier queries
++ Can read and write XML
++ Be careful with large documents
+
+## Working without `IEnumerable`
+
++ `OfType<E>()` can help interface into `IEnumerable<E>`
++ `AsEnumerable<E>()` can also help:
+  + As previously mentioned, some LINQ queries won't have analogous SQL queries
+  + `AsEnumerable` can turn data streams into something that will support LINQ operators
+  + Some gotches: immediate query execution
++ All conversion methods cause immediate query execution (so watch out for that)
+
+## Aggregation Methods
+
++ Aggregation examples: `Min`, `Max`, `Sum`, `Average`
++ Also have methods to operate on or select specific elements: `First`, `Last`, `Single`
+  + Immediate execution
+  + Returns single elements, not collection streams
+  + Can throw exceptions
++ Boolean queries: `All`, `SequenceEqual`, etc
+
+## Performance
+
++ LINQ does add overhead
++ Overhead usually is not hugely significant (profile)
++ Query structure can impact performance
+  + Memory - Runtime tradeoff
+  + Pulling results into memory before intensive query portions can improve speed
+  + But, when dealing with huge datasets, that might not be possible
 
 ## Takeaways
 
