@@ -81,15 +81,20 @@
 x = 'feed the bear' if hungry else 'Do not feed the bear'
 ```
 
-## Operators
-
-## Loops
-
 ## Functions
 
 ## Structured Data
 
 ## Classes
+
++ `__init__` for constructor
++ `_` naming convention for class variables
++ `self` gets passed around for you
++ Doesn't have to be named `self` but everyone will be pretty confused if you don't
++ No visibility modifiers
++ Special method names like `__str__` (which is the equivalent of `toString`)
++ Can also have static variables by defining at class level
++ Has inheritance, including multiple inheritance
 
 ## Exceptions
 
