@@ -128,13 +128,10 @@ sequence = [round(pi, i) for i in original_sequence]
 + Strings are immutable
 + String transformation methods return a separate string
 
-## File I/O
+## Takeaways
 
-## Built-in Functions
-
-## Databases
-
-## Scoping:
-
-+ Blocks do not define scope
-+ 
++ Great course for getting a pretty complete overview of features available in Python
++ Important to understand Python philosophy to make best possible use of Python
++ Next steps:
+  + I took this for Python data science projects I'm doing, so I'll definitely apply it there
+  + Maybe try out some HackerRank problems to see if I can leverage all of the language facilities available in Python
