@@ -83,7 +83,28 @@ x = 'feed the bear' if hungry else 'Do not feed the bear'
 
 ## Functions
 
++ All functions return a value (even if that value is just `None`)
++ Can give default values to function parameters
++ Some trickiness with `id` when it comes to pass by value
++ Variable length arguments with `*args` or `**kwargs`
++ Generator function:
+  + Returns a stream of values
+  + `yield`
++ Also has function decorators
+
 ## Structured Data
+
++ Basic sequential types: lists and tuples
++ List is mutable; tuple is not
++ Also a dictionary type and a set type
++ Cool operations for intersections of sets
++ List comprehension:
+  + Way of generating sequences from other sequences
+  + Example:
+  
+```python
+sequence = [round(pi, i) for i in original_sequence]
+```
 
 ## Classes
 
@@ -98,7 +119,14 @@ x = 'feed the bear' if hungry else 'Do not feed the bear'
 
 ## Exceptions
 
++ `raise` an exception
++ `try`-`except`-`finally` as expected
++ Can also add an `else` clause to `try` blocks
+
 ## String Objects
+
++ Strings are immutable
++ String transformation methods return a separate string
 
 ## File I/O
 
