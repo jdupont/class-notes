@@ -51,3 +51,17 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     describes how Web Assembly and asm completely revolutionize how programming works. Very interesting talk -- I highly
     recommend it.
     
+## Software Design
+
++ [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy)
+    + _Speaker_: Rich Hickey (author of Clojure)
+    + _Watched_: 4/9/2018
+    + This talk was action-packed. The first part focused on the difference between simple (concerning only a limited
+    number of things, i.e. not complex) and easy (familiar or related to what you already understand). According to Rich
+    software should be simple, but not necessarily easy. By keeping software simple, you limit the potential effects of
+    future changes; by keeping it easy, you just make things go more smoothly for other developers in the short term.
+    Then, the talk moves to the idea of constructs versus artifacts. Programmers use constructs (code and tools) to make
+    artifacts (programs). Programmers tend to care a lot about constructs, but users only care about artifacts (as long as
+    it works, it doesn't matter to the user how/why it works). Then Rich discusses various techniques for making projects
+    simple (like avoiding state, which makes sense given that he's the author of a functional language). This was interesting
+    food for thought.
