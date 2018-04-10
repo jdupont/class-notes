@@ -4,6 +4,6 @@ Need more Python knowledge going forward with machine learning ideas.
 
 _Started_: 4/2/2018
 
-_Finished_: In progress
+_Finished_: 4/5/2018
 
 _Instructor_: Bill Weinman
