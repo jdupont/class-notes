@@ -65,3 +65,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     it works, it doesn't matter to the user how/why it works). Then Rich discusses various techniques for making projects
     simple (like avoiding state, which makes sense given that he's the author of a functional language). This was interesting
     food for thought.
+    
+## Debugging
+
++ [Debugging with the Scientific Method](https://www.youtube.com/watch?v=FihU5JxmnBg)
+    + _Speaker_: Stuart Halloway
+    + _Watched_: 4/10/2018
+    + Well, this talk featured debugging advice from House M.D., which is a great start. The presenter talked about debugging
+    methodically, starting with a hypothesis, then an experiment, and then a revaluation of the hypothesis (and iterating
+    until that leads to a fix).
