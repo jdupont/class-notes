@@ -65,6 +65,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     it works, it doesn't matter to the user how/why it works). Then Rich discusses various techniques for making projects
     simple (like avoiding state, which makes sense given that he's the author of a functional language). This was interesting
     food for thought.
++ [Simplicity Matters](https://www.youtube.com/watch?v=rI8tNMsozo0)
+    + _Speaker_: Rich Hickey (author of Clojure)
+    + _Watched_: 4/11/2018
+    + This talk was a follow-up to [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy). A lot of the fundamental
+    ideas were repeated, but Rich then expanded on more approaches for building simple software. He discussed sources of complexity,
+    such as state, time, and order, and then discussed ways to eliminate them. Great talk!
     
 ## Debugging
 
