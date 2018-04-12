@@ -71,6 +71,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + This talk was a follow-up to [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy). A lot of the fundamental
     ideas were repeated, but Rich then expanded on more approaches for building simple software. He discussed sources of complexity,
     such as state, time, and order, and then discussed ways to eliminate them. Great talk!
++ [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
+    + _Speaker_: Rich Hickey (author of Clojure)
+    + _Watched_: 4/12/2018
+    + Great talk about the importance of design and upfront problem solving in programming. Rich discusses how and why upfront
+    design has gotten a bad name. Rich then goes into a discussion of various problem-solving strategies, focusing especially on
+    taking time to allow deep thought on a problem.
     
 ## Debugging
 
