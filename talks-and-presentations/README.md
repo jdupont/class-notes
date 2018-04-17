@@ -51,6 +51,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     describes how Web Assembly and asm completely revolutionize how programming works. Very interesting talk -- I highly
     recommend it.
     
++ [The Future of Programming](https://www.youtube.com/watch?v=8pTEmbeENF4)
+    + _Speaker_: Bret Victor
+    + _Watched_: 4/17/2018
+    + Very interesting premise about peering into the future of computing from the viewpoint of 1973, and seeing how those
+    predictions match up with the next 40 years.
+    
 ## Software Design
 
 + [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy)
