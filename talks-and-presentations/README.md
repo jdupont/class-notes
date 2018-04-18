@@ -92,3 +92,11 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + Well, this talk featured debugging advice from House M.D., which is a great start. The presenter talked about debugging
     methodically, starting with a hypothesis, then an experiment, and then a revaluation of the hypothesis (and iterating
     until that leads to a fix).
+
+## Containers
+
++ [Demystifying Docker](https://www.youtube.com/watch?v=GVVtR_hrdKI)
+    + _Speaker_: Andrew Baker
+    + _Watched_: 4/18/2018
+    + Great introduction to the basics of Docker. Does a good job of explaining the needs filled by Docker and why you'd want
+    to start incorporating Docker into your own workflows.
