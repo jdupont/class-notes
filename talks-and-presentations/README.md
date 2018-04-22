@@ -83,7 +83,16 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + Great talk about the importance of design and upfront problem solving in programming. Rich discusses how and why upfront
     design has gotten a bad name. Rich then goes into a discussion of various problem-solving strategies, focusing especially on
     taking time to allow deep thought on a problem.
-    
++ [Get a Whiff of This](https://www.youtube.com/watch?v=PJjHfa5yxlU)
+    + _Speaker_: Sandi Metz
+    + _Watched_: 4/21/2018
+    + Great talk about what a code smell is (a very specific indication of a defect), what a refactoring recipe is (a way
+    to fix a specific code smell), and how knowledge of the two can help improve your programs.
++ [Rules](https://www.youtube.com/watch?v=npOGOmkxuio)
+    + _Speaker_: Sandi Metz
+    + _Watched_: 4/21/2018
+    + Sandi Metz describes an OOP approach favoring many small objects, with a set of rules for writing programs in this style.
+
 ## Debugging
 
 + [Debugging with the Scientific Method](https://www.youtube.com/watch?v=FihU5JxmnBg)
