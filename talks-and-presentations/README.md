@@ -92,6 +92,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + _Speaker_: Sandi Metz
     + _Watched_: 4/21/2018
     + Sandi Metz describes an OOP approach favoring many small objects, with a set of rules for writing programs in this style.
++ [Nothing is Something](https://www.youtube.com/watch?v=OMPfEXIlTVE)
+    + _Speaker_: Sandi Metz
+    + _Watched_: 4/23/2018
+    + Great talk about identifying hidden abstractions and leveraging those to improve designs. Sandi spends a while discussing how 
+    abstractions are hidden throughout code (like those hidden by the keyword `if`). She wraps up with a discussion of how
+    inheritance can be dangerous, and how composition can lead to better designs.
 
 ## Debugging
 
