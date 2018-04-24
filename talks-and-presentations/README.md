@@ -108,6 +108,15 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     methodically, starting with a hypothesis, then an experiment, and then a revaluation of the hypothesis (and iterating
     until that leads to a fix).
 
+## Testing
+
++ [The Magic Tricks of Testing](https://www.youtube.com/watch?v=URSWYvyc42M)
+    + _Speaker_: Sandi Metz
+    + _Watched_: 4/24/2018
+    + Sandi discusses why unit tests can become so painful so quickly, and then talks about what characterizes good tests (thorough,
+    fast, and robust). Then, Sandi talks about what to test in order to avoid repeating yourself (which contributes to slow, fragile
+    tests).
+
 ## Containers
 
 + [Demystifying Docker](https://www.youtube.com/watch?v=GVVtR_hrdKI)
