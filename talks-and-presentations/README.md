@@ -124,3 +124,12 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + _Watched_: 4/18/2018
     + Great introduction to the basics of Docker. Does a good job of explaining the needs filled by Docker and why you'd want
     to start incorporating Docker into your own workflows.
+
+## Functional Programming
+
++ [Running a Startup on Haskell](https://www.youtube.com/watch?v=ZR3Jirqk6W8)
+    + _Speaker_: Bryan O'Sullivan
+    + _Watched_: 4/28/2018
+    + Interesting talk about using Haskell in a 3 person startup. Sounds like Bryan O'Sullivan re-invented the wheel for a lot of
+    things that would have been available already in other languages, but he also says that they see high performance and low
+    defect rates which he attributes the Haskell's language facilities.
