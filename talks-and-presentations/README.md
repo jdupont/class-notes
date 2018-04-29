@@ -133,3 +133,11 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + Interesting talk about using Haskell in a 3 person startup. Sounds like Bryan O'Sullivan re-invented the wheel for a lot of
     things that would have been available already in other languages, but he also says that they see high performance and low
     defect rates which he attributes the Haskell's language facilities.
+
+## Language Design
+
++ [Why C++ Sails When the Vasa Sank]()
+    + _Speaker_: Scott Meyers
+    + _Watched_: 4/29/2018
+    + Interesting talk about C++'s longevity. Scott Meyers gives a number of reasons why C++ became popular and has stayed popular.
+    He also makes some commentary on the future of C++ and how the language might grow.
