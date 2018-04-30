@@ -141,3 +141,10 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + _Watched_: 4/29/2018
     + Interesting talk about C++'s longevity. Scott Meyers gives a number of reasons why C++ became popular and has stayed popular.
     He also makes some commentary on the future of C++ and how the language might grow.
+
+## Node.js
+
++ [Node.js Explained](https://www.youtube.com/watch?v=L0pjVcIsU6A)
+    + _Speaker_: Jeff Kunkle
+    + _Watched_: 4/30/2018
+    + Great talk about the conceptual underpinnings of Node (i.e., the advantages of nonblocking programming for I/O intensive operations).
