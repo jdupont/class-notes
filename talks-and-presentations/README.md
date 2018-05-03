@@ -98,6 +98,10 @@ But, I'd still like to keep track of what I'm watching and the main ideas of eac
     + Great talk about identifying hidden abstractions and leveraging those to improve designs. Sandi spends a while discussing how 
     abstractions are hidden throughout code (like those hidden by the keyword `if`). She wraps up with a discussion of how
     inheritance can be dangerous, and how composition can lead to better designs.
++ [What does it mean to be R    eactive?](https://www.youtube.com/watch?v=sTSQlYX5DU0)
+    + _Speaker_: Erik Meijer
+    + _Watched_: 5/3/2018
+    + Meijer applies mathematical precision to programming concepts.
 
 ## Debugging
 
